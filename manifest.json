@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "GitHub white header",
+  "description": "Reverts the black header on github to the old white design",
+  "author": "Daniel Swensson",
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "0.1",
   "name": "GitHub white header",
-  "description": "Reverts the black header on github to the old white design",
+  "description": "Reverts the black header on github back to the old white design",
   "author": "Daniel Swensson",
   "content_scripts": [
     {

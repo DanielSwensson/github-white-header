@@ -4,10 +4,8 @@
   "name": "GitHub white header",
   "description": "Reverts the black header on github back to the old white design",
   "author": "Daniel Swensson",
-  "content_scripts": [
-    {
-      "matches": ["*://*.github.com/*"],
-      "js": ["content_script.js"]
-    }
-  ]
+  "content_scripts": [{
+      "matches": ["https://*.github.com/*"],
+      "css": ["style.css"]
+  }]
 }

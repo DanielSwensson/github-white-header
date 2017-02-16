@@ -1,0 +1,21 @@
+.header {
+  background-color: #f5f5f5 !important;
+  color: #000 !important;
+}
+
+.header-nav-link, .header-logo-invertocat, .header-search-input {
+  color: #000 !important;
+}
+
+.header-nav-link:hover {
+  color: #333 !important;
+}
+
+.header-nav-link:hover .dropdown-caret,
+.header-nav-link:active .dropdown-caret {
+  border-top-color: #444 !important;
+}
+
+.header .header-search-wrapper {
+  background-color: white !important;
+}

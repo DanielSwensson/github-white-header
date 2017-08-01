@@ -3,19 +3,23 @@
   color: #333 !important;
 }
 
-.header-nav-link,
+.header-nav-link, /* depreciated */
+.header-navlink,
 .header-logo-invertocat,
 .header-search-input,
 .header-search-scope {
   color: #333 !important;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover, /* depreciated */
+.header-navlink:hover {
   color: #767676 !important;
 }
 
-.header-nav-link:hover .dropdown-caret,
-.header-nav-link:active .dropdown-caret {
+.header-nav-link:hover .dropdown-caret, /* depreciated */
+.header-nav-link:active .dropdown-caret, /* depreciated */
+.header-navlink:hover .dropdown-caret,
+.header-navlink:active .dropdown-caret {
   border-top-color: #767676 !important;
 }
 
@@ -29,7 +33,7 @@
 }
 
 .header .header-search-scope {
-  border-right-color: rgb(245, 245, 245) !important; 
+  border-right-color: rgb(245, 245, 245) !important;
 }
 
 .notification-indicator .mail-status {
